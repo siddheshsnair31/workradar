@@ -1,0 +1,23 @@
+{
+  "name": "workradar",
+  "version": "1.0.0",
+  "private": true,
+  "description": "WorkRadar - AI-powered daily command center for engineering managers (MVP with mock Slack, Jira, GitHub and Email data).",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/dev.mjs --dist",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "esbuild": "^0.28.0",
+    "typescript": "^6.0.0"
+  }
+}
